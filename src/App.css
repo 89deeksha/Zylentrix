@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-item :hover{
+  color: sandybrown !important;
+  text-decoration: underline;
+}
+.hero h1{
+  color: rgb(38, 38, 219);
+}
+.hero p{
+  color:saddlebrown;
+}
+.footer{
+width: 100%;
+  position: absolute;
+  bottom: 0;
+
+}
+.footer .icon:hover{
+color: sandybrown;
+}
