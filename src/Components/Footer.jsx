@@ -7,7 +7,7 @@ function Footer() {
       <div className="container">
         <p>© 2025 Zylentrix. All rights reserved.</p>
         <div className="social-icons mt-2">
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white mx-3">
+          <a href="https://www.linkedin.com/in/deeksha89jain/" target="_blank" rel="noopener noreferrer" className="text-white mx-3">
             <FaLinkedin className="icon" size={24} />
           </a>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white mx-3">
