@@ -73,3 +73,20 @@ color: sandybrown;
   z-index: 1000;
   
 }
+button{
+  width: 10vw;
+  background-color:rgb(136, 136, 218);
+  height: 3vw;
+  border-radius: 1vw;
+  border: 1px solid white;
+  color: white;
+}
+
+
+button:hover{
+  background-color: rgb(73, 73, 246);
+}
+
+p{
+  color: white;
+}
