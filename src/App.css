@@ -12,7 +12,7 @@ body{
   overflow-y: hidden;
 }
 .nav-item :hover{
-  color: sandybrown !important;
+  color: rgb(122, 122, 244) !important;
   text-decoration: underline;
 }
 .hero h1{
@@ -87,6 +87,25 @@ button:hover{
   background-color: rgb(73, 73, 246);
 }
 
-p{
-  color:black;
+
+.form-container{
+  
+  justify-content: center;
+  align-items: center;
+ 
+  border: 2px solid black;
+  width: 40%;
+  height: 30vw;
+  margin: auto;
 }
+input{
+  width:12vw;
+  margin-top: 1vw;
+  border: 2px solid black;
+
+  
+}
+.mssg{
+  color: black;
+}
+

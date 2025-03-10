@@ -4,6 +4,7 @@ import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
 import { Auth0Provider } from '@auth0/auth0-react';
+
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
@@ -16,6 +17,6 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
     <App />
     </BrowserRouter>
-    </Auth0Provider>,
+    </Auth0Provider>
  
 )

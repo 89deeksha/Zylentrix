@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import { useAuth0 } from "@auth0/auth0-react";
 function Navbar() {
   const { loginWithRedirect,isAuthenticated,logout,user } = useAuth0();
+  const [text,setText]=useState("")
+  const handlechange=(e)=>{
+    setText((e.target.value))
+    console.log(e.target.value)
+  }
+
   return (
     <div>
+   
         
         <nav className="navbar navbar-expand-lg bg-dark">
   <div className="container-fluid">
@@ -28,6 +35,7 @@ function Navbar() {
         </li>
 
 
+
 <li>{
   isAuthenticated && <p>{user.name}</p>
 }</li>
@@ -40,6 +48,9 @@ Log Out
 </button></li>:<li><button onClick={() => loginWithRedirect()}>Log In</button></li>
 
 }
+<div >
+         <input type="text" placeholder='search'onChange={handlechange} value={text}/>
+        </div>
 
 
 

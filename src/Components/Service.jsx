@@ -34,6 +34,41 @@ function Service() {
               <p>Develop high-quality mobile applications for Android and iOS.</p>
             </div>
           </div>
+          <div className="col-md-4">
+            <div className="service-box p-4 shadow-sm">
+              <FaMobileAlt size={50} className="icon mb-3" />
+              <h4>Mobile App Development</h4>
+              <p>Develop high-quality mobile applications for Android and iOS.</p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="service-box p-4 shadow-sm">
+              <FaMobileAlt size={50} className="icon mb-3" />
+              <h4>Mobile App Development</h4>
+              <p>Develop high-quality mobile applications for Android and iOS.</p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="service-box p-4 shadow-sm">
+              <FaMobileAlt size={50} className="icon mb-3" />
+              <h4>Mobile App Development</h4>
+              <p>Develop high-quality mobile applications for Android and iOS.</p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="service-box p-4 shadow-sm">
+              <FaMobileAlt size={50} className="icon mb-3" />
+              <h4>Mobile App Development</h4>
+              <p>Develop high-quality mobile applications for Android and iOS.</p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="service-box p-4 shadow-sm">
+              <FaMobileAlt size={50} className="icon mb-3" />
+              <h4>Mobile App Development</h4>
+              <p>Develop high-quality mobile applications for Android and iOS.</p>
+            </div>
+          </div>
 
         </div>
       </div>

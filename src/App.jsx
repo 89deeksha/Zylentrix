@@ -7,6 +7,7 @@ import Service from './Components/Service'
 import Contact from './Components/Contact'
 // import Hero from './Components/Hero';
 import Footer from './Components/Footer';
+import Registration from './Components/Registration';
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/registration" element={<Registration />} />
       </Routes>
       {/* <Hero/> */}
       <Footer/>
