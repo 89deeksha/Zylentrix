@@ -8,6 +8,8 @@ import Contact from './Components/Contact'
 // import Hero from './Components/Hero';
 import Footer from './Components/Footer';
 import Registration from './Components/Registration';
+import Registrationfile from './Components/Registrationfile';
+import Practicefile from './Components/Practicefolder/practicefile';
 
 function App() {
   
@@ -21,6 +23,8 @@ function App() {
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/registration" element={<Registration />} />
+        <Route path="/registrationfile" element={<Registrationfile />} />
+        <Route path="/practicefile" element={<Practicefile />} />
       </Routes>
       {/* <Hero/> */}
       <Footer/>

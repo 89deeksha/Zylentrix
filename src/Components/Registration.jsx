@@ -18,20 +18,31 @@ async function onSubmit(data){
   return (
    
         <form  onSubmit={handleSubmit(onSubmit)}>
-             <div>
+             <div className='forms'>
+              <div className='input'>
             <label htmlFor="">First Name:</label>
             <input {...register('firstName',
               { required: true,
               minLength:{value:3, message:"min len should 3" },
               maxLength:{value:5, message:"max len should 5"}})} />
+              
             {errors.firstName && <p style={{ color: "red" }}>{errors.firstName.message}</p>}
             </div>
+            
+            
 
             <div>
             <label htmlFor="">Last Name:</label>
             <input {...register('lastName',{ required: true })}  />
             </div>
+            
+            <div>
+            <label htmlFor="">Password:</label>
+            <input {...register('password',{ required: true })}  />
+            </div>
             <input type="submit" disabled={isSubmitting} value={isSubmitting ? "Submitting....":"Submit"}/>
+            </div>
+            
         </form>
     
   )

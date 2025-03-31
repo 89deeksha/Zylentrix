@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 function Contact() {
   const [formData, setFormData] = useState({
     name: '',
@@ -25,7 +26,11 @@ function Contact() {
     }
   };
 
+
+
   return (
+
+
     <section className="contact py-2 d-flex justify-content-center align-items-center vh-10">
       <div className="container">
         <h2 className="text-center mb-4">Contact Us</h2>
@@ -70,7 +75,7 @@ function Contact() {
                 required 
               ></textarea>
             </div>
-            <button type="submit" className="btn btn-primary w-60">Submit</button>
+            <button type="submit" className="btn btn-primary w-60" >Submit</button>
           </form>
         )}
       </div>

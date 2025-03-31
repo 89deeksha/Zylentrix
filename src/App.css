@@ -108,4 +108,50 @@ input{
 .mssg{
   color: black;
 }
+.forms {
+  display: flex; /* Needed for justify-content & align-items */
+  flex-direction: column; /* Stack items vertically */
+  height: 40vh; /* Keep it restricted to 40% of viewport height */
+  width: 40%; /* Set width as needed */
+  border: 2px solid yellow;
+  display: flex;
+  top: 1vw;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.input{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+}
+.container-registration {
+  min-height: 30vh; /* Allows content to expand */
+  max-width: 40vw; /* Ensures a reasonable width */
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% auto; /* Centers the form */
+  padding: 20px; /* Adds spacing inside the container */
+  border-radius: 8px; /* Optional: Adds rounded corners */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+.container-registration input {
+  width: 100%; /* Makes inputs stretch */
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.reg-form{
+  
+  display: flex;
+  flex-direction: column; /* Ensures label stays above input */
+  width: 100%;
+  margin-bottom: 10px;
+}
 
